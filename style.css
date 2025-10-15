@@ -5,8 +5,9 @@
 
 body {
   width: 1100px;
+  min-width: 3.028px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1,
@@ -40,7 +41,6 @@ button {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 20px 40px; 
   background: #fff;
   min-height: 80px;
   position: relative;
@@ -49,17 +49,18 @@ button {
   opacity: 1;
 }
 
-.header-menu {
+.header_menu {
   justify-self: start;
 }
 
 .header_link-list {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 41px 36.52px 42px 36px;
   gap: 20px;
   align-items: center;
+  height: 22px;
+  width: 391.42px;
 }
 
 .header_link-item {
@@ -127,6 +128,7 @@ button {
   min-height: 757px;
   justify-content: space-between;
   align-items: center;
+  margin: 0 0 1.978px 0;
 }
 
 .overlay {
@@ -164,7 +166,8 @@ button {
   align-items:center;
   padding: 300px 380.5px 342px 380.5px;
 }
-  .aligned-text_right {
+
+.aligned-text_right {
   align-items: flex-start;
   padding: 435px 50px 207px 663px;
 }
@@ -195,7 +198,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 22px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .cover_bet-button {
@@ -333,7 +336,7 @@ button {
   bottom: 0;
   right: 0;
   list-style: none; /* Убираем маркер списка */
-  margin: 0 860px 0 0; 
+  margin: 0 860px 0 0;
 }
 
 .about {
@@ -395,7 +398,7 @@ button {
   align-items: start;
   gap: 40px;
   padding: 60px 5%;
-  background: #f8f8f8;
+  background: #fff;
 }
 
 .footer_address-block {
