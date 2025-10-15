@@ -29,7 +29,7 @@ blockquote {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 20px 40px; /* 20px сверху/снизу, 40px по бокам */
+  padding: 20px 40px; 
   background: #fff;
   min-height: 80px;
   position: relative;
