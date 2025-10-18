@@ -55,11 +55,12 @@ button {
 .header_link-list {
   display: flex;
   list-style: none;
-  padding: 41px 0 42px 45px;
-  gap: 18px;
   align-items: center;
-  height: 22px;
+  min-height: 22px;
   font-size: 18px;
+  gap: 20px 18px;
+  width: 392px;
+  margin: 28px 0px 31px 49px;
 }
 
 .header_link-item {
@@ -93,10 +94,10 @@ button {
 }
 
 .header_logo {
-  width: 135px;   /* ширина */
-  height: 95px;   /* высота */
-  max-width: 100%; /* Адаптивность */
-  margin: 10px 10px 10px 0;
+  width: 137px;
+  height: 95px;
+  max-width: 100%;
+  margin: 10px -1px 20px 0;
 }
 
 .address-block {
@@ -105,7 +106,7 @@ button {
   gap: 8px;
   font-style: normal;
   position: absolute;
-  padding: 116px 50px 110px 806px;
+  padding: 106px 50px 110px 810px;
   border: 1px; 
   opacity: 1;
   box-sizing: border-box;
@@ -137,6 +138,7 @@ button {
   position: relative;
   margin: 0;
   opacity: 1;
+  width: 11oopx;
 }
 
 .cover_title {
@@ -161,18 +163,18 @@ button {
 
 .aligned-text_left {
   align-items: flex-start;
-  padding: 165px 764px 477px 69px;
+  padding: 165px 700px 477px 63px;
 }
 
 .aligned-text_center {
   align-items:center;
-  padding: 60px 40px 280px 400px;
+  padding: 60px 40px 280px 393px;
   line-height: 1.6;
 }
 
 .aligned-text_right {
-  align-items: flex-start;
-  padding: 442px 50px 214px 683px;
+  align-items: flex-end;
+  padding: 445px 32px 212px 673px;
 }
 
 .cover_description {
@@ -185,17 +187,19 @@ button {
   size: 22px;
   font-weight: 400;
   line-height: 28px;
+  margin: 0px 50px 0px 26px;
 }
 
 .cover_description-text {
-  text-align: right;
   opacity: 1;
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  letter-spacing: 0.137em;
+  letter-spacing: 0.02em;
   font-size: 22px;
-  padding: 672px 380px 44px 20px;
+  padding: 668px 409px 0px 47px;
+  word-spacing: 1rem;
+  text-align: justify;
 }
 
 .cover_bet-button {
@@ -211,7 +215,7 @@ button {
   opacity: 1;
   height: 51px;
   width: 256px;
-  margin: 666px 50px 30px 762px;
+  margin: 0px 13px -11px 790px;
 }
 
 .lots {
@@ -219,7 +223,7 @@ button {
   flex-wrap: wrap;
   width: 1052px;
   min-height: 723px;
-  margin: 172px 24px 130px 18px;
+  margin: 176px 24px 56px 23px;
   position: relative; /* Делаем секцию точкой отсчета для позиционирования */
   padding-bottom: 40px; /* Добавляем отступ снизу для места под ссылку */
 }
@@ -230,7 +234,7 @@ button {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 15px 180px 0px 37px;
+  padding: 8px 196px 0px 43px;
 }
 
 .lots_card-list {
@@ -256,7 +260,7 @@ button {
   text-align: left;
   text-decoration-line: underline;
   text-transform: uppercase;
-  margin: 48px 40px 0px;
+  margin: 49px 42px 3px 40px;
   z-index: 1;
   
 }
@@ -269,7 +273,7 @@ button {
   font-weight: 400;
   line-height: 120%;
   text-decoration: none;
-  padding: 280px 40px 48px;
+  padding: 274px 42px 40px 41px;
   z-index: 1;
 }
 
@@ -281,7 +285,7 @@ button {
   font-weight: 400;
   line-height: 120%;
   text-decoration: none;
-  padding: 40px 40px 48px;
+  padding: 36px 39px 48px;
   z-index: 1;
 }
 
@@ -293,7 +297,7 @@ button {
   font-weight: 400;
   line-height: 120%;
   text-decoration: none;
-  padding: 160px 38px 24px;
+  padding: 131px 40px 24px;
   z-index: 1;
 }
 
@@ -307,6 +311,7 @@ button {
   background-image: url(./images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: 0;
 }
 
@@ -316,15 +321,17 @@ button {
   background-image: url(./images/card-lot-02.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: 0;
 }
 
 .lots__card-list-item-picture {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   background-image: url(./images/card-lot-03.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: 0;
 }
 
@@ -333,7 +340,7 @@ button {
   bottom: 0;
   right: 0;
   list-style: none; /* Убираем маркер списка */
-  margin: 0 820px 20px 40px;
+  margin: 0 820px 27px 40px;
   font-size: 20px;
   text-decoration: underline;
 }
@@ -341,13 +348,13 @@ button {
 .about {
   display: grid;
   grid-template-columns: 360px 690px; /* Левая колонка 240px, правая - всё оставшееся пространство */
-  margin: 120px 24px 180px 24px;
+  margin: 118px 25px 152px 26px;
 }
 
 .about__left-column {
   display: flex;
   justify-content: center; /* Центрирование логотипа по горизонтали */
-  padding: 0 85px 360px 47px;
+  padding: 0 74px 360px 47px;
 }
 
 .about__logo-container {
@@ -371,7 +378,7 @@ button {
 }
 
 .about__right-column {
-  padding: 70px 0 13px;
+  padding: 77px 0 69px;
 }
 
 .about__title {
@@ -417,7 +424,7 @@ button {
   text-decoration: none;
   transition: opacity 0.3s;
   opacity: 1.5;
-  padding: 1px 14px;
+  padding: 0 22px;
   width: 320px;
   height: auto;
 }
