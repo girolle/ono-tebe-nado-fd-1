@@ -5,9 +5,10 @@
 
 body {
   width: 1100px;
-  min-height: 100%;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-weight: bold;
 }
 
 h1,
@@ -106,7 +107,9 @@ button {
   gap: 8px;
   font-style: normal;
   position: absolute;
-  padding: 106px 50px 110px 810px;
+  right: 50px;
+  width: 240px;
+  padding: 106px 0 110px 0;
   border: 1px; 
   opacity: 1;
   box-sizing: border-box;
@@ -150,7 +153,7 @@ button {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   z-index: 0;
-  padding: 165px 0;
+  padding: 165px 50px;
 }
 
 .aligned-text {
@@ -163,18 +166,21 @@ button {
 
 .aligned-text_left {
   align-items: flex-start;
-  padding: 165px 700px 477px 63px;
+  padding: 165px 0 0 50px;
 }
 
 .aligned-text_center {
   align-items:center;
-  padding: 60px 40px 280px 393px;
+  padding: 60px 0 0 0;
   line-height: 1.6;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .aligned-text_right {
   align-items: flex-end;
-  padding: 445px 32px 212px 673px;
+  padding: 445px 50px 0 0;
+  right: 0;
 }
 
 .cover_description {
@@ -221,9 +227,10 @@ button {
 .lots {
   display: flex;
   flex-wrap: wrap;
-  width: 1052px;
+  width: 1100px;
   min-height: 723px;
-  margin: 176px 24px 56px 23px;
+  margin: 176px auto 56px;
+  padding: 0 24px;
   position: relative; /* Делаем секцию точкой отсчета для позиционирования */
   padding-bottom: 40px; /* Добавляем отступ снизу для места под ссылку */
 }
@@ -348,7 +355,9 @@ button {
 .about {
   display: grid;
   grid-template-columns: 360px 690px; /* Левая колонка 240px, правая - всё оставшееся пространство */
-  margin: 118px 25px 152px 26px;
+  margin: 118px auto 152px;
+  width: 1100px;
+  padding: 0 25px 0 26px;
 }
 
 .about__left-column {
@@ -405,7 +414,7 @@ button {
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
   justify-items: start;
-  padding: 10px 20px 15px 30px;
+  padding: 10px 0 15px 0;
   background: #fff;
   width: 1100px;
   min-height: 180px;
@@ -427,6 +436,7 @@ button {
   padding: 0 22px;
   width: 320px;
   height: auto;
+  justify-self: start;
 }
 
 .footer_address-block a {
@@ -471,7 +481,7 @@ button {
   justify-self: end;
   gap: 50px;
   margin: 0;
-  padding: 0 80px 0;
+  padding: 0 80px 0 0;
   list-style: none;
   width: 100%;
   justify-content: flex-end;
