@@ -8,7 +8,6 @@ body {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  font-weight: bold;
 }
 
 h1,
@@ -24,6 +23,7 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  font-weight: bold;
 }
 
 a {
@@ -70,7 +70,7 @@ button {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  padding: 10px 0 10px 0px;
+  padding: 15px 5px 12px 0px;
 }
 
 .circle-bullet {
@@ -107,9 +107,7 @@ button {
   gap: 8px;
   font-style: normal;
   position: absolute;
-  right: 50px;
-  width: 240px;
-  padding: 106px 0 110px 0;
+  padding: 112px 50px 110px 810px;
   border: 1px; 
   opacity: 1;
   box-sizing: border-box;
@@ -153,7 +151,7 @@ button {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   z-index: 0;
-  padding: 165px 50px;
+  padding: 165px 0;
 }
 
 .aligned-text {
@@ -166,21 +164,18 @@ button {
 
 .aligned-text_left {
   align-items: flex-start;
-  padding: 165px 0 0 50px;
+  padding: 174px 711px 473px 50px;
 }
 
 .aligned-text_center {
   align-items:center;
-  padding: 60px 0 0 0;
+  padding: 60px 40px 280px 385px;
   line-height: 1.6;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .aligned-text_right {
   align-items: flex-end;
-  padding: 445px 50px 0 0;
-  right: 0;
+  padding: 445px 32px 212px 669px;
 }
 
 .cover_description {
@@ -203,7 +198,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.02em;
   font-size: 22px;
-  padding: 668px 409px 0px 47px;
+  padding: 673px 360px 0px 25px;
   word-spacing: 1rem;
   text-align: justify;
 }
@@ -221,16 +216,15 @@ button {
   opacity: 1;
   height: 51px;
   width: 256px;
-  margin: 0px 13px -11px 790px;
+  margin: 0px 13px -13px 766px;
 }
 
 .lots {
   display: flex;
   flex-wrap: wrap;
-  width: 1100px;
+  width: 1052px;
   min-height: 723px;
-  margin: 176px auto 56px;
-  padding: 0 24px;
+  margin: 176px 24px 56px 23px;
   position: relative; /* Делаем секцию точкой отсчета для позиционирования */
   padding-bottom: 40px; /* Добавляем отступ снизу для места под ссылку */
 }
@@ -347,7 +341,7 @@ button {
   bottom: 0;
   right: 0;
   list-style: none; /* Убираем маркер списка */
-  margin: 0 820px 27px 40px;
+  margin: 0 819px 36px 40px;
   font-size: 20px;
   text-decoration: underline;
 }
@@ -355,9 +349,7 @@ button {
 .about {
   display: grid;
   grid-template-columns: 360px 690px; /* Левая колонка 240px, правая - всё оставшееся пространство */
-  margin: 118px auto 152px;
-  width: 1100px;
-  padding: 0 25px 0 26px;
+  margin: 118px 25px 152px 26px;
 }
 
 .about__left-column {
@@ -387,7 +379,7 @@ button {
 }
 
 .about__right-column {
-  padding: 77px 0 69px;
+  padding: 65px 0 69px;
 }
 
 .about__title {
@@ -400,7 +392,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 76px 0 0 0;
+  padding: 92px -1px -2px -6px;
 }
 
 .about__text {
@@ -414,7 +406,7 @@ button {
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
   justify-items: start;
-  padding: 10px 0 15px 0;
+  padding: 10px 20px 15px 30px;
   background: #fff;
   width: 1100px;
   min-height: 180px;
@@ -436,7 +428,6 @@ button {
   padding: 0 22px;
   width: 320px;
   height: auto;
-  justify-self: start;
 }
 
 .footer_address-block a {
@@ -481,7 +472,7 @@ button {
   justify-self: end;
   gap: 50px;
   margin: 0;
-  padding: 0 80px 0 0;
+  padding: 0 80px 0;
   list-style: none;
   width: 100%;
   justify-content: flex-end;
