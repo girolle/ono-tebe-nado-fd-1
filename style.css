@@ -4,8 +4,7 @@
 }
 
 body {
-  max-width: 1100px;
-  width: 100%;
+  width: 1100px;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
@@ -65,9 +64,9 @@ button {
   align-items: center;
   min-height: 22px;
   font-size: 18px;
-  gap: 20px 18px;
+  gap: 20px 13px;
   width: 392px;
-  margin: 28px 0px 31px 49px;
+  margin: 28px 0px 31px 52px;
 }
 
 .header_link-item {
@@ -76,7 +75,7 @@ button {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  padding: 15px 5px 12px 0px;
+  padding: 15px 3px 17px 2px;
 }
 
 .circle-bullet {
@@ -104,7 +103,7 @@ button {
   width: 137px;
   height: 95px;
   max-width: 100%;
-  margin: 10px -1px 20px 0;
+  margin: 10px -1px 20px 9px;
 }
 
 .address-block {
@@ -119,7 +118,7 @@ button {
   box-sizing: border-box;
   font-size: 18px;
   line-height: 16px;
-  margin-right: 50px;
+  margin-right: 84px;
   justify-self: end;
 }
 
@@ -160,22 +159,22 @@ button {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   z-index: 0;
-  padding: 165px 50px;
-  text-align: center;
+  padding: 160px 22px 202px 50px;
 }
 
 .aligned-text {
   display: block;
-  text-align: left;
 }
 
 .aligned-text_left {
   align-items: flex-start;
+  text-align: left;
 }
 
 .aligned-text_center {
-  text-align:center;
+  align-items:center;
   line-height: 1.6;
+  text-align: center;
 }
 
 .aligned-text_right {
@@ -192,7 +191,7 @@ button {
   size: 22px;
   font-weight: 400;
   line-height: 28px;
-  margin: 0px 50px 0px 26px;
+  margin: 0px -54px 0px -160px;
 }
 
 .cover_description-text {
@@ -202,7 +201,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.02em;
   font-size: 22px;
-  padding: 673px 360px 0px 25px;
+  padding: 669px 0px 0px 5px;
   word-spacing: 1rem;
   text-align: justify;
 }
@@ -220,7 +219,7 @@ button {
   opacity: 1;
   height: 51px;
   width: 256px;
-  margin: 20px auto;
+  margin: 18px -100px -10px 111px;
 }
 
 .lots {
@@ -228,9 +227,7 @@ button {
   flex-wrap: wrap;
   width: 100%;
   min-height: 723px;
-  padding: 0 24px;
-  position: relative; /* Делаем секцию точкой отсчета для позиционирования */
-  padding-bottom: 40px; /* Добавляем отступ снизу для места под ссылку */
+  margin: 175px 0 7px 24px;
 }
 
 .lots_heading {
@@ -244,9 +241,9 @@ button {
 
 .lots_card-list {
   display: flex;
-  gap: 25px;
+  gap: 25px 25px;
   list-style-type: none;
-  margin: 0 20px 20px 0;
+  padding: 25px 44px 20px 0;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -255,8 +252,8 @@ button {
   display: flex;
   flex-direction: column;
   position: relative;
-  flex: 1 1 300px;
   max-width: 334px;
+  height: 596px;
 }
 
 .card__title {
@@ -270,7 +267,6 @@ button {
   text-transform: uppercase;
   margin: 49px 42px 3px 40px;
   z-index: 1;
-  
 }
 
 .card__text-film {
@@ -310,7 +306,7 @@ button {
 }
 
 .card-link {
-  height: 100%;
+  max-height: 100%;
 }
 
 .lots__card-list-item-film {
@@ -345,26 +341,25 @@ button {
 
 .lots__look-more-link {
   position: static;
-  bottom: 0;
-  right: 0;
-  list-style: none; /* Убираем маркер списка */
-  margin: 20px 0 0 40px;
   font-size: 20px;
   text-decoration: underline;
+  display: block;
+  padding: 8px 40px 0 0;
+  width: 935px;
 }
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 25px;
+  grid-template-columns: 300px 717px; 
   margin: 100px auto;
+  gap: 24px;
   padding: 0 50px;
+  max-width: 1100px;
 }
 
 .about__left-column {
   display: flex;
-  justify-content: center; /* Центрирование логотипа по горизонтали */
-  padding: 0 74px 360px 47px;
+  padding: 30px 0 351px 24px;
 }
 
 .about__logo-container {
@@ -388,26 +383,25 @@ button {
 }
 
 .about__right-column {
-  padding: 65px 0 69px;
+ /* На всякий случай */ 
 }
 
 .about__title {
-  font-size: 40px;
+  margin: 132px 2px 24px 18px; 
   text-transform: uppercase;
-  margin: 30px 0 24px 0; /* Верхний отступ 30px, нижний 24px */
+  font-size: 40px;
 }
 
 .about__texts-wrapper {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 92px -1px -2px -6px;
+  margin: 100px -1px -2px 10px;
 }
 
 .about__text {
   font-size: 20px;
   line-height: 24px;
-  margin: 0; /* Убираем стандартные отступы */
 }
 
 .footer {
@@ -419,7 +413,6 @@ button {
   gap: 20px;
   background: #fff;
   max-width: 1100px;
-  width: 100%;
   min-height: 180px;
   opacity: 1;
   font-size: 18px;
@@ -436,7 +429,7 @@ button {
   text-decoration: none;
   transition: opacity 0.3s;
   opacity: 1.5;
-  padding: 0 22px;
+  padding: 53px 5px;
   width: 320px;
   height: auto;
 }
@@ -451,6 +444,7 @@ button {
 
 .footer__menu {
   justify-self: center; /* Центрируем меню */
+  margin: 54px -8px 0 0;
 }
 
 .footer__menu-list {
@@ -483,7 +477,7 @@ button {
   justify-self: end;
   gap: 50px;
   margin: 0;
-  padding: 0 80px 0;
+  padding: 52px 0 0 0;
   list-style: none;
   width: 100%;
   justify-content: flex-end;
