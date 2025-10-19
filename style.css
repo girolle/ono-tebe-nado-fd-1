@@ -446,7 +446,7 @@ button {
 }
 
 .footer__menu {
-  justify-self: center; /* Центрируем меню */
+  justify-self: center; /*Центрируем меню */
   margin: 54px -8px 0 0;
 }
 
